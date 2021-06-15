@@ -1,0 +1,18 @@
+package DesafioJantar;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+		
+		Pessoa p1 = new Pessoa("Otaviano",70);
+		Comida c1 = new Comida("Pastel",0.300);
+		Comida c2 = new Comida("Caldo de cana",0.200);
+		
+		p1.comer(c1);
+		System.out.println(p1.imprimir(c1));
+		
+		p1.comer(c2);
+		System.out.println(p1.imprimir(c2));
+		
+	}
+}
