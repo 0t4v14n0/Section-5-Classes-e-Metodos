@@ -1,0 +1,26 @@
+package DesafioJantar;
+
+public class Pessoa {
+	
+	String nome;
+	double peso;
+	
+	Pessoa(){
+		
+	}
+	
+	Pessoa(String nome,double peso){
+		this.nome = nome;
+		this.peso = peso;
+	}
+
+	void comer(Comida comida){
+		if (comida != null) {
+			this.peso = this.peso + comida.pesocomida;
+		}
+	}
+	
+	String imprimir(Comida comida) {
+		return nome+" meu peso é "+peso+" "+comida.nomecomida;
+	}
+}
