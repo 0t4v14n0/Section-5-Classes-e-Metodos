@@ -1,0 +1,16 @@
+package DesafioJantar;
+
+public class Comida {
+	
+	String nomecomida;
+	double pesocomida;
+	
+	Comida(){
+		
+	}
+	
+	Comida(String nome, double peso){
+		this.nomecomida = nome;
+		this.pesocomida = peso;
+	}
+}
